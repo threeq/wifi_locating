@@ -137,6 +137,7 @@ class collector:
     #----------------------------------------------------------------------
     def GET(self):
 	""""""
+	reqArgs = web.input(location=None);
 	
 
 # 定位服务
